@@ -16,7 +16,7 @@ jobs:
           archtecture: 'x64'
           
       - name: Poetry
-        uses: cnok/install-poetry@v1
+        uses: snok/install-poetry@v1
         with:
           version: 1.4.2
           virtualenvs-create: true
